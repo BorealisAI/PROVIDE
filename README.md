@@ -61,6 +61,8 @@ For enabling the frame prediction please use the --predict_frames flag followed 
 
 Also please make sure that you prepared both bb_binary and bb_color for this experiment if you want to compute the scores. bb_color is the GT for bb_binary. If you don't want to compute the scores and just want to visualise results then you can set the --gt_datapath to /path/to/bb_binary/.
 
+If you want to visualise the outputs or generate latents walks add the batch numbers to batch_to_print and batch_to_print_latent in the test.py.
+
 - Bouncing Balls  4 balls/colored
 
 ```bash
