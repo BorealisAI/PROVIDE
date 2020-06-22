@@ -31,7 +31,8 @@ GIF showing results for CLEVRER dataset       |  Scene Decomposition Experiment
 ### Datasets
 
 #### Bouncing Balls
-- Please download the Bouncing Balls datasets 'balls4mass64.h5' and 'balls678mass64.h5' from oficial R-NEM[2] [website](https://github.com/sjoerdvansteenkiste/Relational-NEM).
+- Please download the Bouncing Balls datasets 'balls4mass64.h5' and 'balls678
+mass64.h5' from oficial R-NEM[2] [website](https://github.com/sjoerdvansteenkiste/Relational-NEM).
 - Run the scripts (bb_binary.py, bb_binary678.py, bb_colored.py, bb_colored678.py and bb_colored678_4_colors.py) from the same directory where the .h5 files are. Like this:
 ```bash
 python bb_binary.py 
@@ -49,7 +50,7 @@ python slice_videos_from_annotations.py
 
 
 ### Test
-You will need at least one GPU to run tests. We used GeForce GTX 1080 Ti GPU. For the Python version we had Python 3.6.9. Use the following commands to test the models:
+You will need at least one GPU to run tests. We used GeForce GTX 10 series GPU. For the Python version we had Python 3.6.9. Use the following commands to test the models:
  
 - Bouncing Balls 4 balls/binary
 ```bash
@@ -95,7 +96,7 @@ python scripts/test.py --batch_size 1 --datapath /path/to/clevrer6/ --gt_datapat
 
 ### Train
 
-For training models we used 8 GeForce GTX 1080 Ti GPUs.
+For training models we used 8 GeForce GTX 10 series GPUs.
 
 - Bouncing balls binary
 ```bash
