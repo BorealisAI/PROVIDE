@@ -1,6 +1,6 @@
 
 
-This is the code repository complementing the paper "Unsupervised Video Decomposition using Spatio-temporal Iterative Inference".  The pretrained models are included in the repo.
+This is the code repository complementing the paper "PROVIDE: A Probabilistic Framework for Unsupervised Video Decompositi".  The pretrained models are included in the repo.
 
 
 GIF showing results for CLEVRER dataset       |  Scene Decomposition Experiment
